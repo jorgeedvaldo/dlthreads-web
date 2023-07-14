@@ -6,20 +6,20 @@
         <h1 class="text-white text-2xl font-bold">Terms of Service</h1>
     </div>
 </section>
-<section>
+<section class="container mx-auto px-4">
     <h2 class="text-2xl font-bold mb-4">1. Acceptance of Terms</h2>
     <p class="mb-6">By accessing or using the DlThreads.net website and services (the "Service"), you agree to be bound
         by these Terms of Service ("Terms"). If you do not agree to these Terms, you may not access or use the Service.
     </p>
 </section>
 
-<section>
+<section class="container mx-auto px-4">
     <h2 class="text-2xl font-bold mb-4">2. Description of Service</h2>
     <p class="mb-6">DlThreads.net provides a platform for users to access and share threads. The Service may include
         advertisements, which are necessary for DlThreads.net to continue providing the Service.</p>
 </section>
 
-<section>
+<section class="container mx-auto px-4">
     <h2 class="text-2xl font-bold mb-4">3. User Conduct</h2>
     <p class="mb-6">You agree to use the Service in compliance with all applicable laws and regulations. You are solely
         responsible for your conduct while using the Service, and you must not:
@@ -36,14 +36,14 @@
     </p>
 </section>
 
-<section>
+<section class="container mx-auto px-4">
     <h2 class="text-2xl font-bold mb-4">4. Intellectual Property Rights</h2>
     <p class="mb-6">The Service and its original content, features, and functionality are owned by DlThreads.net and are
         protected by international copyright, trademark, patent, trade secret, and other intellectual property or
         proprietary rights laws.</p>
 </section>
 
-<section>
+<section class="container mx-auto px-4">
     <h2 class="text-2xl font-bold mb-4">5. Limitation of Liability</h2>
     <p class="mb-6">DlThreads.net and its directors, employees, partners, agents, suppliers, or affiliates shall not be
         liable for any indirect, incidental, special, consequential, or punitive damages, including without limitation,
@@ -51,21 +51,21 @@
         inability to access or use the Service.</p>
 </section>
 
-<section>
+<section class="container mx-auto px-4">
     <h2 class="text-2xl font-bold mb-4">6. Governing Law</h2>
     <p class="mb-6">These Terms shall be governed by and construed in accordance with the laws of [your jurisdiction].
         Any disputes arising under or in connection with these Terms shall be subject to the exclusive jurisdiction of
         the courts located in [your jurisdiction].</p>
 </section>
 
-<section>
+<section class="container mx-auto px-4">
     <h2 class="text-2xl font-bold mb-4">7. Changes to Terms</h2>
     <p class="mb-6">DlThreads.net reserves the right, at its sole discretion, to modify or replace these Terms at any
         time. If a revision is material, we will provide at least 30 days' notice prior to any new terms taking effect.
         What constitutes a material change will be determined at our sole discretion.</p>
 </section>
 
-<section>
+<section class="container mx-auto px-4">
     <h2 class="text-2xl font-bold mb-4">8. Contact Us</h2>
     <p class="mb-6">If you have any questions about these Terms, please contact us at [contact email address].</p>
 </section>

@@ -50,18 +50,6 @@
     </footer>
 
     <script>
-        const pasteButton = document.querySelector('.paste-button');
-
-        pasteButton.addEventListener('click', async () => {
-        try {
-            const text = await navigator.clipboard.readText()
-            document.querySelector('.url-input').value += text;
-            console.log('Text pasted.');
-        } catch (error) {
-            console.log('Failed to read clipboard');
-        }
-        });
-
         const dropdownButton = document.querySelector('.dropdown-button');
         const dropdownMenu = document.querySelector('.dropdown-menu');
 
