@@ -12,7 +12,7 @@
             <nav class="flex justify-between items-center">
                 <div class="text-gray-900 text-lg">DlThreads</div>
                 <div>
-                    <a href="#" class="text-gray-900 hover:text-gray-700 px-4">Blog</a>
+                    <a href="{{ url('/blog') }}" class="text-gray-900 hover:text-gray-700 px-4">Blog</a>
                     <div class="relative inline-block">
                         <button class="text-gray-900 hover:text-gray-700 px-4 py-2 rounded cursor-pointer dropdown-button">
                             Language
@@ -23,10 +23,10 @@
                         </button>
                         <ul class="absolute hidden bg-white text-gray-700 pt-1 dropdown-menu">
                             <li>
-                                <a href="#" class="block px-4 py-2 hover:bg-gray-200">English</a>
+                                <a href="{{ url('/') }}" class="block px-4 py-2 hover:bg-gray-200">English</a>
                             </li>
                             <li>
-                                <a href="#" class="block px-4 py-2 hover:bg-gray-200">Português</a>
+                                <a href="{{ url('/pt') }}" class="block px-4 py-2 hover:bg-gray-200">Português</a>
                             </li>
                         </ul>
                     </div>
@@ -42,8 +42,8 @@
     <footer class="bg-gray-800 py-4">
         <div class="container mx-auto px-4 flex justify-between">
             <div class="text-gray-500">
-                <a href="#" class="mr-4">Privacy Policy</a>
-                <a href="#">Terms of Service</a>
+                <a href="{{ url('/privacy-policy') }}" class="mr-4">Privacy Policy</a>
+                <a href="{{ url('/terms-of-service') }}">Terms of Service</a>
             </div>
             <p class="text-center text-gray-500">© 2023 DlThreads. All rights reserved.</p>
         </div>
