@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\PostController;
 use App\Http\Controllers\PrivacyPolicyController;
 use App\Http\Controllers\TermsOfServiceController;
 
@@ -17,5 +18,6 @@ use App\Http\Controllers\TermsOfServiceController;
 */
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::get('/blog', [PostController::class, 'index'])->name('blog');
 Route::get('/privacy-policy', [PrivacyPolicyController::class, 'index'])->name('privacy-policy');
 Route::get('/terms-of-service', [TermsOfServiceController::class, 'index'])->name('terms-of-service');
