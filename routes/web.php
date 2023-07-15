@@ -18,6 +18,8 @@ use App\Http\Controllers\TermsOfServiceController;
 */
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::post('/', [HomeController::class, 'downloadByLink'])->name('home');
+
 Route::get('/blog', [PostController::class, 'index'])->name('blog');
 Route::get('/privacy-policy', [PrivacyPolicyController::class, 'index'])->name('privacy-policy');
 Route::get('/terms-of-service', [TermsOfServiceController::class, 'index'])->name('terms-of-service');

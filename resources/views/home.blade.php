@@ -4,9 +4,9 @@
     <div class="container mx-auto px-4">
         <h2 class="text-3xl font-bold text-white mb-4">Threads Video Download</h2>
         <p class="text-gray-100 mb-8">Download Video Threads, Photo online</p>
-        <form class="flex items-center">
+        <form method="POST" action="{{ route('home') }}" class="flex items-center">
             <div class="relative w-full">
-                <input type="text" placeholder="Enter Threads post URL"
+                <input type="text" placeholder="Enter Threads post URL" name="url"
                     class="w-full rounded-l px-4 py-2 outline-none focus:ring-2 focus:ring-blue-500 url-input" value="">
                 <button type="button"
                     class="absolute right-0 top-0 bottom-0 px-3 flex items-center bg-gray-200 rounded-r paste-button">
@@ -16,7 +16,7 @@
                     </svg>
                 </button>
             </div>
-            <button class="bg-green-500 hover:bg-green-600 text-white px-6 py-2 rounded-r">Download</button>
+            <button type="submit" class="bg-green-500 hover:bg-green-600 text-white px-6 py-2 rounded-r">Download</button>
         </form>
     </div>
 </section>
