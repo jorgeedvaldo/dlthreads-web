@@ -14,10 +14,10 @@ class HomeController extends Controller
 
     public function downloadByLink(Request $request)
     {
-        $response = Http::get('https://teste.anamarartes.com/?q=' . $request->url);
+        $response = Http::get('https://jorgeedvaldo-probable-enigma-rr46pvx9w5x2p46w-3000.preview.app.github.dev/?postid=' . $request->url);
     
         $JSONData = $response->json();
-          
-        dd($jsonData);
+
+        return $JSONData;
     }
 }
